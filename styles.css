@@ -1,0 +1,8 @@
+#header-image/ cv-photo/ header #cv-photo {
+    border-radius: 800px; /* to create rounded image */
+    /*
+    border-top-left-radius: 1000px; to create roundness only for top left corner
+     of image
+     */
+}
+
