@@ -1,8 +1,35 @@
-#header-image/ cv-photo/ header #cv-photo {
-    border-radius: 800px; /* to create rounded image */
-    /*
-    border-top-left-radius: 1000px; to create roundness only for top left corner
-     of image
-     */
+html {
+    vertical-align: 0px;
 }
+
+body {
+    border: solid;
+    padding: 5px;
+    position: absolute;
+}
+
+#header {
+    text-align: center;
+}
+
+#menu div {
+    display: block;
+    background-color: lightgray;
+    margin: 5px 2px;
+}
+
+#profile {
+    border-radius: 50%; 
+}
+
+progress {
+    width: 80%;
+    height: 22px;
+  }
+  progress::-webkit-progress-bar {
+      background-color: blue;
+  }
+  progress::-webkit-progress-value {
+      background-color: #0000ff;
+  }
 
