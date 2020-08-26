@@ -1,12 +1,12 @@
 html {
-    vertical-align: 0px;
+    vertical-align: 0px; 
 }
 
 body {
-    border: solid;
-    padding: 5px;
-    position: absolute;
-}
+    /* border: solid; 
+    padding: 5px; 
+    position: absolute; */
+} 
 
 #header {
     text-align: center;
@@ -18,18 +18,32 @@ body {
     margin: 5px 2px;
 }
 
+#cv, #portfolio {
+    text-align: center;
+}
+
+#project {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+h2 {
+    text-align: center;
+}
+
+#space {
+    margin-top: 200px;
+}
+
 #profile {
     border-radius: 50%; 
 }
 
+/* tried to use the HTML5 progress lib with progress tag */
 progress {
     width: 80%;
-    height: 22px;
-  }
-  progress::-webkit-progress-bar {
-      background-color: blue;
-  }
-  progress::-webkit-progress-value {
-      background-color: #0000ff;
-  }
+    height: 25px;
+}
 

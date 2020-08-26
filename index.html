@@ -6,39 +6,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="styles.css">
-    <title>cunning CV</title>
+    <title>a cunning CV</title>
 </head>
 
 <body>
-    <h1>CV page</h1>
+    <h1>CV page 👺</h1>
 
     <hr>
 
+    <!-- start header -->
     <header id="header">
         <a href="" class="pic">
             <img src="/img/OK_thumb.png" alt="Logo of me" id="profile">
         </a>
-        <h2>Cunning-weasel</h2>
+        <h2>cunning-weasel</h2>
         <h3>Web Dev</h3>
     </header>
 
+    <!-- start menu -->
     <nav>
         <div id="menu">
             <div>
-                <a href="">Lebenslauf</a>>
+                <a href="#cv">Lebenslauf
+                    <i class="fa fa-chevron-right"></i>
+                </a>
+            <div>
+                <a href="#portfolio">Portfolio
+                    <i class="fa fa-chevron-right"></i>
+                </a>
             </div>
             <div>
-                <a href="">Portfolio</a>>
+                <a href="#skills">Skills
+                    <i class="fa fa-chevron-right"></i>
+                </a>
             </div>
             <div>
-                <a href="">Skills</a>>
-            </div>
-            <div>
-                <a href="">Contact</a>>
+                <a href="#contact">Contact
+                    <i class="fa fa-chevron-right"></i>
+                </a>
             </div>
         </ul>
     </nav>
 
+    <!-- start main -->
     <main>
         <section id="cv">
             <h2>Lebenslauf</h2>
@@ -48,53 +58,55 @@
                 <a href="">sample</a>
             </h3>
             <p>2019-2020</p>
-            <a href="">CV download</a>
+            <a href="" download>CV download</a>
         </section>
 
+        <!-- start Portfolio -->
         <h2>Portfolio</h2>
         <hr>
-        <a target="" href="/img/OK_thumb.png">
-            <img src="/img/OK_thumb.png" alt="cunningness">
-        </a>
         <a href="" alt="" target="_blank">
+        <a target="" href="" id="project">
+            <img src="/img/OK_thumb.png" alt="cunningness"> 
         <p>Sample site</p>
         </a>
-
-        <aside>
+        
+        <!-- start Skills -->
+        <aside id="space">
             <h2>Skills</h2>
             <hr>
             <section id="skills">
                 <div>
-                    <progress id="html-bar"></progress>
                     <h3>HTML/CSS</h3>
-                    <progress id="js-bar"></progress>
+                    <progress max="100" value="60"></progress>
                     <h3>JS</h3>
-                    <progress id="react-bar"></progress>
+                    <progress max="100" value="40"></progress>
                     <h3>React</h3>
+                    <progress max="100" value="20"></progress>
                 </div>
             </section>
         </aside>
     </main>
 
+    <!-- start footer -->
     <footer>
         <section id="contact">
             <h2>Contacts</h2>
             <hr>
             <div>
-                <div> <!-- fa attri depracated! -->
-                    <i class="fa fa-github">@cunningness</i>
+                <div> <!-- fa attri depracated!!!!! couldn't get it working otherwise -->
+                    <i class="fa fa-github"> @cunningness</i>
                 </div>
                 <div>
-                    <i class="fa fa-envelope-square">paul@gmail.com</i>
+                    <i class="fa fa-envelope-square"> weasel@gmail.com</i>
                 </div>
                 <div>
-                    <i class="fa fa-linkedin">linkedin</i>
+                    <i class="fa fa-linkedin"> linkedin</i>
                 </div>
                 <div>
-                    <i class="fa fa-phone">12345678</i>
+                    <i class="fa fa-phone"> 123-weasel</i>
                 </div>
                 <div>
-                    <i class="fa fa-twitter">@cunning-weasel</i>
+                    <i class="fa fa-twitter">@tweet-a-weasel</i>
                 </div>
             </div>
         </section>
