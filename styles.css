@@ -1,37 +1,57 @@
-html {
-    vertical-align: 0px; 
+/* DL font-file, then import: 
+
+@face-font {
+    font-family: new_Font_Name;
+    src: url(/fonts/font-file) format("ttf");
+    src: url(/fonts/font-file-EXTENSION for browser compatibility) format("eot");
 }
 
-body {
-    /* border: solid; 
-    padding: 5px; 
-    position: absolute; */
-} 
+elem {
+    font-family: new_Font_Name, 'Courier New', Courier, monospace;
+}
+this installs font on server to serve client - not on client's machine. set second 
+font as fail-safe
+*/
+
+html {
+    vertical-align: 0px;
+    font-family: 'Courier New', Courier, monospace; 
+}
 
 #header {
     text-align: center;
 }
 
 #menu div {
-    display: block;
     background-color: lightgray;
-    margin-top: 1px;
-    padding: 5px 2px;
-    align-items: center;
+    margin-top: 5px 0px ;
+    padding: 5px;
+    align-items: left; 
+    border-top: 25px;
 }
 
-/* positioning chevron to the far right relies on parent elem being postitioned relative - see Notion notes*/
+/* add margin (top) for space between menu elems + padding to add some space 
+to link elems -> figure out which parent elem is overwriting margin! */
+
+/* positioning for chevron - see Notion notes */
+
+
+nav a {
+    color: white;
+}
+
 nav {
     position: relative;
+    justify-content: space-between;
 }
 
-nav a .fa {
+nav div i {
     position: absolute;
     right: 5px;
 }
 
-#cv, #portfolio {
-    text-align: center;
+nav div div { /* used way too much CSS, need to review */
+    margin-top: 5px;
 }
 
 #project {
@@ -45,17 +65,42 @@ h2 {
     text-align: center;
 }
 
+/* start borders <hr> */
 #space {
     margin-top: 200px;
 }
 
-#profile {
-    border-radius: 50%; 
+h1 {
+    border-bottom: 1px solid black;
+    padding-bottom: 20px;
+    text-align: center;
 }
 
-/* tried to use the HTML5 progress lib with progress tag */
+#portfolio {
+    border-bottom: 1px solid black;
+}
+
+#skills {
+    border-top: 1px solid black;
+}
+
+#profile {
+    border-radius: 50%;
+}
+
+#contact-border {
+    border-top: 1px solid black;
+    padding-top: 20px;
+}
+/* end borders <hr> */
+
+/* used the HTML5 progress lib for progress bars */
 progress {
     width: 80%;
     height: 25px;
+}
+
+#contact {
+    font-size: large;
 }
 

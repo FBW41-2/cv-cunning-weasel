@@ -12,12 +12,10 @@
 <body>
     <h1>CV page 👺</h1>
 
-    <hr>
-
     <!-- start header -->
     <header id="header">
         <a href="" class="pic">
-            <img src="/img/OK_thumb.png" alt="Logo of me" id="profile">
+            <img src="/img/OK_thumb.png" alt="photo of cunning-weasel" id="profile">
         </a>
         <h2>cunning-weasel</h2>
         <h3>Web Dev</h3>
@@ -26,97 +24,98 @@
     <!-- start menu -->
     <nav>
         <div id="menu">
-            <div>
+            <div> <!-- don't forget to try change icon color (elem.a color: blue for eg) -->
                 <a href="#cv">CV
-                    <i class="fa fa-chevron-right"></i> <!-- fa attri depracated!!!!! couldn't get it working otherwise -->
-                </a>
-            <div>
-                <a href="#portfolio">Portfolio
                     <i class="fa fa-chevron-right"></i>
+                    <!-- fa attri depracated!!!!! couldn't get it working otherwise -->
                 </a>
-            </div>
-            <div>
-                <a href="#skills">Skills
-                    <i class="fa fa-chevron-right"></i>
-                </a>
-            </div>
-            <div>
-                <a href="#contact">Contact
-                    <i class="fa fa-chevron-right"></i>
-                </a>
-            </div>
-        </ul>
+                </div>
+                <div>
+                    <a href="#portfolio">Portfolio
+                        <i class="fa fa-chevron-right"></i>
+                    </a>
+                </div>
+                <div>
+                    <a href="#skills">Skills
+                        <i class="fa fa-chevron-right"></i>
+                    </a>
+                </div>
+                <div>
+                    <a href="#contact">Contact
+                        <i class="fa fa-chevron-right"></i>
+                    </a>
+                </div>
+                </ul>
     </nav>
 
     <!-- start main -->
     <main>
         <section id="cv">
-            <h2>Lebenslauf</h2>
+            <h2>CV</h2>
         </section>
-        <section id="portfolio">
+        <section>
             <h3>Some random experience
                 <a href="">sample</a>
             </h3>
             <p>2019-2020</p>
-            <a href="" download>CV download</a>
+            <a href="/pretending.txt" download>CV download</a>
         </section>
 
         <!-- start Portfolio -->
-        <h2>Portfolio</h2>
-        <hr>
+        <h2 id="portfolio">Portfolio</h2>
+        <!-- replaced with bordertop/bottom -->
         <a href="" alt="" target="_blank">
-        <a target="" href="" id="project">
-            <img src="/img/OK_thumb.png" alt="cunningness"> 
-        <p>Sample site</p>
-        </a>
-        
-        <!-- start Skills -->
-        <aside id="space">
-            <h2>Skills</h2>
-            <hr>
-            <section id="skills">
-                <div>
-                    <h3>HTML/CSS</h3>
-                    <progress max="100" value="60"></progress>
-                    <h3>JS</h3>
-                    <progress max="100" value="40"></progress>
-                    <h3>React</h3>
-                    <progress max="100" value="20"></progress>
-                </div>
-            </section>
-        </aside>
+            <a target="" href="" id="project">
+                <img src="/img/OK_thumb.png" alt="cunningness">
+                <p>Sample site</p>
+            </a>
+
+            <!-- start Skills -->
+            <aside id="space">
+                <h2>Skills</h2>
+                <section id="skills">
+                    <div>
+                        <h3>HTML/CSS</h3>
+                        <progress max="100" value="60"></progress>
+                        <h3>JS</h3>
+                        <progress max="100" value="40"></progress>
+                        <h3>React</h3>
+                        <progress max="100" value="20"></progress>
+                    </div>
+                </section>
+            </aside>
     </main>
 
     <!-- start footer -->
     <footer>
         <section id="contact">
             <h2>Contacts</h2>
-            <hr>
-            <div>
-                <div> <!-- fa attri depracated!!!!! couldn't get it working otherwise -->
+            <div id="contact-border">
+                <div>
+                    <!-- fa attri depracated!!!!! couldn't get it working otherwise -->
                     <a href="" target="_blank">
-                    <i class="fa fa-github"> @cunningness</i>
-                </a>
+                        <i class="fa fa-github"> @cunningness</i>
+                    </a>
+                </div>
+                <div>
+                    <a href="mailto:weaselcorp@cunning.com" target="_blank">
+                        <i class="fa fa-envelope-square"> weasel(at)gmail.com</i>
+                    </a>
                 </div>
                 <div>
                     <a href="" target="_blank">
-                    <i class="fa fa-envelope-square"> weasel@gmail.com</i>
-                </a>
+                        <i class="fa fa-linkedin"> LinkedIn</i>
+                    </a>
+                </div>
+                <div>
+                    <a href="tel:+49" target="_blank">
+                        <i class="fa fa-phone"> 123-dial-a-weasel</i>
+                    </a>
                 </div>
                 <div>
                     <a href="" target="_blank">
-                    <i class="fa fa-linkedin"> linkedin</i>
-                </a>
-                </div>
-                <div>
-                    <a href="" target="_blank">
-                    <i class="fa fa-phone"> 123-weasel</i>
-                </a>
-                </div>
-                <div>
-                    <a href="" target="_blank">
-                    <i class="fa fa-twitter"> @tweet-a-weasel</i>
-                </a>
+                        <i class="fa fa-twitter"> @tweet-a-weasel</i>
+                    </a>
                 </div>
             </div>
         </section>
