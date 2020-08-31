@@ -1,18 +1,3 @@
-/* DL font-file, then import: 
-
-@face-font {
-    font-family: new_Font_Name;
-    src: url(/fonts/font-file) format("ttf");
-    src: url(/fonts/font-file-EXTENSION for browser compatibility) format("eot");
-}
-
-elem {
-    font-family: new_Font_Name, 'Courier New', Courier, monospace;
-}
-this installs font on server to serve client - not on client's machine. set second 
-font as fail-safe
-*/
-
 html {
     vertical-align: 0px;
     font-family: 'Courier New', Courier, monospace; 
@@ -35,9 +20,9 @@ to link elems -> figure out which parent elem is overwriting margin! */
 
 /* positioning for chevron - see Notion notes */
 
-
 nav a {
     color: white;
+    text-decoration: none;
 }
 
 nav {
@@ -61,19 +46,20 @@ nav div div { /* used way too much CSS, need to review */
     width: 50%;
 }
 
-h2 {
-    text-align: center;
-}
-
-/* start borders <hr> */
-#space {
-    margin-top: 200px;
-}
-
+/* start borders <hr> replacement with border-bottom */
 h1 {
     border-bottom: 1px solid black;
     padding-bottom: 20px;
     text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+
+#space {
+    margin-top: 200px;
 }
 
 #portfolio {
