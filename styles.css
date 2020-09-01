@@ -1,6 +1,10 @@
 html {
-    vertical-align: 0px;
     font-family: 'Courier New', Courier, monospace; 
+    /* add space between and around elems. also set some font-size to adjust. try 
+    first with px, then with em/ rem - also for padding and margin. maybe add 
+    google fonts? */
+    /* font-size: 62.5% || 16px || leave blank for this default */
+    /* write selector for DL links to change colors + underline for contact and DL links*/
 }
 
 #header {
@@ -13,10 +17,8 @@ html {
     padding: 5px;
     align-items: left; 
     border-top: 25px;
+    font-size: 1.17rem;
 }
-
-/* add margin (top) for space between menu elems + padding to add some space 
-to link elems -> figure out which parent elem is overwriting margin! */
 
 /* positioning for chevron - see Notion notes */
 
@@ -44,9 +46,20 @@ nav div div { /* used way too much CSS, need to review */
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+    text-align: center;
 }
 
-/* start borders <hr> replacement with border-bottom */
+#project p {
+    margin-right: 8rem;
+}
+
+#cv section {
+    text-align: center;
+    padding: 10em;
+    margin: 10em;
+}
+
+/* start borders <hr> replacement with border-top/ bottom */
 h1 {
     border-bottom: 1px solid black;
     padding-bottom: 20px;
@@ -57,8 +70,7 @@ h2 {
     text-align: center;
 }
 
-
-#space {
+#space { 
     margin-top: 200px;
 }
 
@@ -78,15 +90,17 @@ h2 {
     border-top: 1px solid black;
     padding-top: 20px;
 }
-/* end borders <hr> */
+/* end borders <hr> replacement */
 
 /* used the HTML5 progress lib for progress bars */
 progress {
     width: 80%;
-    height: 25px;
+    height: 1.5rem;
 }
 
-#contact {
-    font-size: large;
+#contact-border div {
+    font-size: 1.3rem;
+    padding: 0.01rem;
+    margin: 0.5rem;
 }
 
