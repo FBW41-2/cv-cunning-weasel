@@ -1,13 +1,13 @@
 # Second assignment
-- Please use live-server while working on the project
+- Please use live-server while working on the project | DONE
 ### Scss
-- Put all the CSS of the site into a SCSS file
-- Use SCSS nesting instead of children selectors
+- Put all the CSS of the site into a SCSS file | Still to check?
+- Use SCSS nesting instead of children selectors | Still to check?
 ### Images
-- For images only the width should be set not the height, so they maintain their original aspect ratio
+- For images only the width should be set not the height, so they maintain their original aspect ratio | DONE
 ### Responsivity
-- Please make sure that the changes you make going forward don't affect the mobile version negatively.
-- Use bootstraps breakpoint for medium screen sizes from the [Bootstrap documentation](https://getbootstrap.com/docs/4.3/layout/overview/#responsive-breakpoints)
+- Please make sure that the changes you make going forward don't affect the mobile version negatively. | DONE
+- Use bootstraps breakpoint for medium screen sizes from the [Bootstrap documentation](https://getbootstrap.com/docs/4.3/layout/overview/#responsive-breakpoints) | DONE
   #### In that media query add:
   - Hover effects for all links
   - The links of the main navigation should be displayed next to each other on medium size screens

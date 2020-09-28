@@ -1,10 +1,8 @@
 html {
     font-family: 'Courier New', Courier, monospace;
-    /* add space between and around elems. also set some font-size to adjust. try 
-    first with px, then with em/ rem - also for padding and margin. maybe add 
-    google fonts? */
     /* font-size: 62.5% || 16px || leave blank for this to default */
-    /* write selector for DL links to change colors + underline for contact and DL links*/
+    /* write selector for DL links to change colors + underline for contact and DL 
+    links*/
 }
 
 #header {
@@ -131,7 +129,7 @@ progress {
     }
 
     img {
-        width: 35%;
+        width: 40%;
     }
 
     a:hover {
@@ -142,16 +140,20 @@ progress {
 
 @media (max-width: 990px) {
     body {
-        margin: auto;
-    }
-}
+        margin: 0% auto;
+        max-width: 85%;
+    } 
+
 
 /* Add:
-  - Hover effects for all links | DONE - but ugly
-  - The links of the main navigation should be displayed next to each other on 
-  medium size screens | DONE - but ugly
-  - The navigation links should appear in uppercase | DONE
-  - Set a maximum width for the main container so the content is preventet from 
-  running too wide on big screens | DONE - maybe?
+  apply breakpoint rules for 768px 
   */
 
+/* 
+
+breakpoints with SASS:
+
+
+
+
+*/
